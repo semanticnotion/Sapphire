@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C399881C14B4B2B800F1FF51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C399881B14B4B2B800F1FF51 /* UIKit.framework */; };
+		C399881E14B4B2B800F1FF51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C399881D14B4B2B800F1FF51 /* Foundation.framework */; };
+		C399882014B4B2B800F1FF51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C399881F14B4B2B800F1FF51 /* CoreGraphics.framework */; };
+		C399882614B4B2B800F1FF51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C399882414B4B2B800F1FF51 /* InfoPlist.strings */; };
+		C399882814B4B2B800F1FF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C399882714B4B2B800F1FF51 /* main.m */; };
+		C399882C14B4B2B800F1FF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C399882B14B4B2B800F1FF51 /* AppDelegate.m */; };
+		C399882F14B4B2B800F1FF51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C399882E14B4B2B800F1FF51 /* ViewController.m */; };
+		C399883214B4B2B800F1FF51 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C399883014B4B2B800F1FF51 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C399881714B4B2B800F1FF51 /* Sapphire Eclipse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sapphire Eclipse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C399881B14B4B2B800F1FF51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C399881D14B4B2B800F1FF51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C399881F14B4B2B800F1FF51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C399882314B4B2B800F1FF51 /* Sapphire Eclipse-Info.plist */ = {isa = PBXFileReference; path = "Sapphire Eclipse-Info.plist"; sourceTree = "<group>"; };
+		C399882514B4B2B800F1FF51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C399882714B4B2B800F1FF51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C399882914B4B2B800F1FF51 /* Sapphire Eclipse-Prefix.pch */ = {isa = PBXFileReference; path = "Sapphire Eclipse-Prefix.pch"; sourceTree = "<group>"; };
+		C399882A14B4B2B800F1FF51 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C399882B14B4B2B800F1FF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C399882D14B4B2B800F1FF51 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		C399882E14B4B2B800F1FF51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C399883114B4B2B800F1FF51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C399881414B4B2B800F1FF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C399881C14B4B2B800F1FF51 /* UIKit.framework in Frameworks */,
+				C399881E14B4B2B800F1FF51 /* Foundation.framework in Frameworks */,
+				C399882014B4B2B800F1FF51 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C399880C14B4B2B700F1FF51 = {
+			isa = PBXGroup;
+			children = (
+				C399882114B4B2B800F1FF51 /* Sapphire Eclipse */,
+				C399881A14B4B2B800F1FF51 /* Frameworks */,
+				C399881814B4B2B800F1FF51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C399881814B4B2B800F1FF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C399881714B4B2B800F1FF51 /* Sapphire Eclipse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C399881A14B4B2B800F1FF51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C399881B14B4B2B800F1FF51 /* UIKit.framework */,
+				C399881D14B4B2B800F1FF51 /* Foundation.framework */,
+				C399881F14B4B2B800F1FF51 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C399882114B4B2B800F1FF51 /* Sapphire Eclipse */ = {
+			isa = PBXGroup;
+			children = (
+				C399882A14B4B2B800F1FF51 /* AppDelegate.h */,
+				C399882B14B4B2B800F1FF51 /* AppDelegate.m */,
+				C399882D14B4B2B800F1FF51 /* ViewController.h */,
+				C399882E14B4B2B800F1FF51 /* ViewController.m */,
+				C399883014B4B2B800F1FF51 /* ViewController.xib */,
+				C399882214B4B2B800F1FF51 /* Supporting Files */,
+			);
+			path = "Sapphire Eclipse";
+			sourceTree = "<group>";
+		};
+		C399882214B4B2B800F1FF51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C399882314B4B2B800F1FF51 /* Sapphire Eclipse-Info.plist */,
+				C399882414B4B2B800F1FF51 /* InfoPlist.strings */,
+				C399882714B4B2B800F1FF51 /* main.m */,
+				C399882914B4B2B800F1FF51 /* Sapphire Eclipse-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C399881614B4B2B800F1FF51 /* Sapphire Eclipse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C399883514B4B2B800F1FF51 /* Build configuration list for PBXNativeTarget "Sapphire Eclipse" */;
+			buildPhases = (
+				C399881314B4B2B800F1FF51 /* Sources */,
+				C399881414B4B2B800F1FF51 /* Frameworks */,
+				C399881514B4B2B800F1FF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sapphire Eclipse";
+			productName = "Sapphire Eclipse";
+			productReference = C399881714B4B2B800F1FF51 /* Sapphire Eclipse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C399880E14B4B2B700F1FF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Semantic Notion Inc";
+			};
+			buildConfigurationList = C399881114B4B2B700F1FF51 /* Build configuration list for PBXProject "Sapphire Eclipse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C399880C14B4B2B700F1FF51;
+			productRefGroup = C399881814B4B2B800F1FF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C399881614B4B2B800F1FF51 /* Sapphire Eclipse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C399881514B4B2B800F1FF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C399882614B4B2B800F1FF51 /* InfoPlist.strings in Resources */,
+				C399883214B4B2B800F1FF51 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C399881314B4B2B800F1FF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C399882814B4B2B800F1FF51 /* main.m in Sources */,
+				C399882C14B4B2B800F1FF51 /* AppDelegate.m in Sources */,
+				C399882F14B4B2B800F1FF51 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C399882414B4B2B800F1FF51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C399882514B4B2B800F1FF51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C399883014B4B2B800F1FF51 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C399883114B4B2B800F1FF51 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C399883314B4B2B800F1FF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C399883414B4B2B800F1FF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C399883614B4B2B800F1FF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sapphire Eclipse/Sapphire Eclipse-Prefix.pch";
+				INFOPLIST_FILE = "Sapphire Eclipse/Sapphire Eclipse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C399883714B4B2B800F1FF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sapphire Eclipse/Sapphire Eclipse-Prefix.pch";
+				INFOPLIST_FILE = "Sapphire Eclipse/Sapphire Eclipse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C399881114B4B2B700F1FF51 /* Build configuration list for PBXProject "Sapphire Eclipse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C399883314B4B2B800F1FF51 /* Debug */,
+				C399883414B4B2B800F1FF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C399883514B4B2B800F1FF51 /* Build configuration list for PBXNativeTarget "Sapphire Eclipse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C399883614B4B2B800F1FF51 /* Debug */,
+				C399883714B4B2B800F1FF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C399880E14B4B2B700F1FF51 /* Project object */;
+}
